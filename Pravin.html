@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravin</title>
+    <link rel="stylesheet" href="Pravin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2>R.S.PRAVINKUMAR</h2>
+        <ul class="navbar-links">
+            <li class="navbar-link"><a href="#about">About</a></li>
+            <li class="navbar-link"><a href="#skills">Skills</a></li>
+            <li class="navbar-link"><a href="#projects">Projects</a></li>
+            <li class="navbar-link"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-menu" onclick="showNavbar()">
+    <i class="fa-solid fa-bars"></i>
+</div>
+    </nav>
+
+    <nav class="side-navbar">
+        <p style="text-align: right;"><i class="fa-solid fa-xmark" onclick="closeNavbar()"></i></p>
+        <h2>R.S.PK</h2>
+        <ul>
+            <li class="side-navbar-link"><a href="#about">About</a></li>
+            <li class="side-navbar-link"><a href="#skills">Skills</a></li>
+            <li class="side-navbar-link"><a href="#projects">Projects</a></li>
+            <li class="side-navbar-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Hero / Introduction -->
+    <section class="hero" id="hero">
+        <h2>Hello, I'm <span>R.PRAVINKUMAR</span></h2>
+        <img src="Pravin.jpg" width="140" style="border-radius:18%; margin-bottom:20px;">
+        <p  id="typing">Frontend Developer <br> Python Django Developer</p>
+        <button class="btn" onclick="location.href='#contact'">Contact </button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate fresher skilled in HTML, CSS, JavaScript and Django. <br>
+            I am looking for an opportunity to start my career as a Web Developer.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-box">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Django</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>CourseHub</h3>
+                <p>Django Web App</p>
+                <a href="https://github.com/PravinkumarRS/CoursHub" target="_blank">CoursHub</a>
+            </div>
+            <div class="project">
+                <h3>E-commerce</h3>
+                <p>HTML & CSS Login UI</p>
+                <a href="https://github.com/username/travel-app" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="contact" id="contact">
+        <h2>Contact & Resume</h2>
+        <p>Email: rpravinkumar34@email.com</p>
+        <p>Mobile: 8428143475</p>
+        <a href="Pravinkumar.pdf" download><button>Download Resume</button></a>
+    </section>
+
+    <!-- Footer / Social Links -->
+    <footer>
+        <a href="https://github.com/PravinkumarRS" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/rspravinkumar/" target="_blank">LinkedIn</a>
+        <a href="https://pravin-portfolio.vercel.app/" target="_blank">Portfolio</a>
+    </footer>
+    <script src="Pravin.js"></script>
+</body>
+
+</html>
